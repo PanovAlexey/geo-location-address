@@ -1,0 +1,50 @@
+{
+    "name": "codeblog.pro/geo-location-address",
+    "type": "library",
+    "description": "The package provides an entity of geographic location address.",
+    "keywords": [
+        "codeblog.pro",
+        "geo-location-address",
+        "geo",
+        "geolocation",
+        "geographical-coordinates"
+    ],
+    "homepage": "https://github.com/PanovAlexey/geo-location-address",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Panov Alexey",
+            "email": "panov@codeblog.pro",
+            "homepage": "https://codeblog.pro/",
+            "role": "Owner"
+        }
+    ],
+    "require": {
+        "php" : ">=7.4"
+    },
+    "require-dev": {
+        "nunomaduro/phpinsights": "^1.14",
+        "phpstan/phpstan": "^0.12.47",
+        "phpunit/php-code-coverage": "^8.0",
+        "phpunit/phpunit": "^9.0.0",
+        "squizlabs/php_codesniffer": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeblogPro\\GeoLocationAddress\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CodeblogPro\\GeoLocationAddress\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs src tests",
+        "fix-style": "phpcbf src tests"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

@@ -20,7 +20,8 @@
         }
     ],
     "require": {
-        "php" : ">=7.4"
+        "php": ">=7.4",
+        "codeblog.pro/geo-coordinates": "^1.0"
     },
     "require-dev": {
         "nunomaduro/phpinsights": "^1.14",

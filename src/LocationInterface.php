@@ -8,9 +8,9 @@ use CodeblogPro\GeoCoordinates\CoordinatesInterface;
 
 interface LocationInterface
 {
-    public function getCountry(): Country;
+    public function getCountry(): ?Country;
 
-    public function getRegion(): Region;
+    public function getRegion(): ?Region;
 
     public function getLocality(): string;
 

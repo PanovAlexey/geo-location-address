@@ -12,7 +12,7 @@ interface LocationInterface
 
     public function getRegion(): Region;
 
-    public function getCity(): string;
+    public function getLocality(): string;
 
     public function getPostal(): string;
 

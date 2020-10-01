@@ -14,7 +14,7 @@ class Region
     public function __construct(string $name = null, string $code = null)
     {
         if (null === $name) {
-            throw new InvalidArgumentException('A country must have either a name.');
+            throw new InvalidArgumentException('A region must have either a name.');
         }
 
         $this->name = $name;
